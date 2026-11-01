@@ -1,0 +1,14 @@
+{
+  "name": "son-of-anton-marketplace",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/validate-plugins.mjs"
+  },
+  "engines": {
+    "node": ">=22.20.0"
+  },
+  "devDependencies": {
+    "ajv": "8.20.0"
+  }
+}

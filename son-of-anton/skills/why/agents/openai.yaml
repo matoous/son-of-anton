@@ -1,0 +1,4 @@
+interface:
+  display_name: "Why"
+  short_description: "Recover design rationale from source evidence"
+  default_prompt: "Use $why to investigate the reasons for this design and distinguish recorded facts from inference."

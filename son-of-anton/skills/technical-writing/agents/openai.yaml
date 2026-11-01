@@ -1,0 +1,4 @@
+interface:
+  display_name: "Technical writing"
+  short_description: "Write technical docs for the reader and task"
+  default_prompt: "Use $technical-writing to write or revise this document for its intended reader and verify its examples."

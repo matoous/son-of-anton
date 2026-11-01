@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anton"
+  short_description: "Candid engineering with evidence and focused checks"
+  default_prompt: "Use $anton to complete this task with honest feedback, a simple design, focused verification, and a concise report."

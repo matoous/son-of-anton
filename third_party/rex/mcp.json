@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "superlogical": {
+      "type": "streamable-http",
+      "url": "https://www.superlogical.com/rex/community-mcp"
+    }
+  }
+}

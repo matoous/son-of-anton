@@ -1,0 +1,44 @@
+{
+  "name": "son-of-anton",
+  "interface": {
+    "displayName": "Son of Anton"
+  },
+  "plugins": [
+    {
+      "name": "son-of-anton",
+      "source": {
+        "source": "local",
+        "path": "./son-of-anton"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "rex",
+      "source": {
+        "source": "local",
+        "path": "./third_party/rex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "incident-io",
+      "source": {
+        "source": "local",
+        "path": "./third_party/incidentio"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Swarm"
+  short_description: "Coordinate parallel Codex subagents"
+  default_prompt: "Use $swarm to split this task among parallel Codex subagents, collect their results, and return one consolidated report."

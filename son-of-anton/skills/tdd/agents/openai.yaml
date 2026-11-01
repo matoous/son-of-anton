@@ -1,0 +1,4 @@
+interface:
+  display_name: "TDD"
+  short_description: "Fix bugs with focused regression evidence"
+  default_prompt: "Use $tdd to reproduce this bug with a focused check, fix the cause, and verify the result."

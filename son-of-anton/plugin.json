@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "son-of-anton",
+  "version": "0.3.0",
+  "description": "Small, adaptable Codex skills for candid engineering, investigation, and writing.",
+  "author": {
+    "name": "Matouš Dzivjak",
+    "url": "https://github.com/matoous"
+  },
+  "repository": "https://github.com/matoous/son-of-anton",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Son of Anton",
+        "shortDescription": "Candid engineering skills, kept small and adaptable",
+        "developerName": "Matouš Dzivjak",
+        "category": "Developer Tools"
+      }
+    }
+  }
+}

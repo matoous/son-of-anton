@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "rex",
+  "version": "0.2.0",
+  "description": "Rex CLI workflows and access to Rex documentation and community discussions.",
+  "author": {
+    "name": "Rex contributors"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Rex",
+        "shortDescription": "Manage Rex terminal sessions and panes through the installed Rex CLI.",
+        "category": "Developer Tools"
+      }
+    }
+  }
+}

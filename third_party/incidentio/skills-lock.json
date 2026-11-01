@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "skills": {
+    "architecture": {
+      "source": "incident-io/skills",
+      "sourceType": "github",
+      "skillPath": "plugins/incident-io/skills/architecture/SKILL.md",
+      "computedHash": "7891fba8fff03eceeb3ffe7eac8ff73d778d3810a11b361a24f5d275c5b13da1"
+    },
+    "architecture-author": {
+      "source": "incident-io/skills",
+      "sourceType": "github",
+      "skillPath": "plugins/incident-io/skills/architecture-author/SKILL.md",
+      "computedHash": "7a793c2f673a247a714652506e8ba85893df8d07fb8fab62ae6b2c8f1fbee13a"
+    },
+    "catalog": {
+      "source": "incident-io/skills",
+      "sourceType": "github",
+      "skillPath": "plugins/incident-io/skills/catalog/SKILL.md",
+      "computedHash": "e2538b34c5ebdda2f3667ce1e57f345371f463945333264f697958710724d205"
+    },
+    "doctor": {
+      "source": "incident-io/skills",
+      "sourceType": "github",
+      "skillPath": "plugins/incident-io/skills/doctor/SKILL.md",
+      "computedHash": "0ac228b803cff372a6ca8f1ed721d0289501d9bcab0cd91117e1185b12a44559"
+    },
+    "extensions": {
+      "source": "incident-io/skills",
+      "sourceType": "github",
+      "skillPath": "plugins/incident-io/skills/extensions/SKILL.md",
+      "computedHash": "2c9fb46d71d8b6e3cf9e105fb583d309279d3cadcda9ec507e2abe1e77775f03"
+    },
+    "incidents": {
+      "source": "incident-io/skills",
+      "sourceType": "github",
+      "skillPath": "plugins/incident-io/skills/incidents/SKILL.md",
+      "computedHash": "e503a01ee2546d6fed6ea5a5e7ea23a701793cc096990ec3db029401fbe35c26"
+    },
+    "on-call": {
+      "source": "incident-io/skills",
+      "sourceType": "github",
+      "skillPath": "plugins/incident-io/skills/on-call/SKILL.md",
+      "computedHash": "924ded2002bf979bf530a1d5a77b7c583c892c8c0ded5981c6c54307c721817c"
+    },
+    "postmortem": {
+      "source": "incident-io/skills",
+      "sourceType": "github",
+      "skillPath": "plugins/incident-io/skills/postmortem/SKILL.md",
+      "computedHash": "2b21bf7327c20b17d138d31589624c9d76fbfc04cb82da8ed11c00e47ad067b7"
+    },
+    "skill-authoring": {
+      "source": "incident-io/skills",
+      "sourceType": "github",
+      "skillPath": "plugins/incident-io/skills/skill-authoring/SKILL.md",
+      "computedHash": "843681160065f4f9594914c69512c2b280e380b762651c8c85c1bc1dec49a05b"
+    },
+    "talking-to-the-user": {
+      "source": "incident-io/skills",
+      "sourceType": "github",
+      "skillPath": "plugins/incident-io/skills/talking-to-the-user/SKILL.md",
+      "computedHash": "dfdbe87fb5edd0e51d45c92dba73392b44829863fc605ec07117ca2e888c523a"
+    },
+    "telemetry": {
+      "source": "incident-io/skills",
+      "sourceType": "github",
+      "skillPath": "plugins/incident-io/skills/telemetry/SKILL.md",
+      "computedHash": "016e441c0c7c4a18ad05d6d81dee01be25b4ef6bc1fb65184cfff6baec0602f1"
+    }
+  }
+}

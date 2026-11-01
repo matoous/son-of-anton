@@ -1,0 +1,3 @@
+interface:
+  display_name: "SumUp SDKs"
+  short_description: "Maintain SumUp SDKs and troubleshoot their PRs"

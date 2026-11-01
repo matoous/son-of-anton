@@ -1,0 +1,4 @@
+interface:
+  display_name: "How"
+  short_description: "Explain runtime flow and code ownership"
+  default_prompt: "Use $how to explain how this code works, with file references and important caveats."

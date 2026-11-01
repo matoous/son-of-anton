@@ -1,0 +1,4 @@
+interface:
+  display_name: "Go"
+  short_description: "Write modern Go in Matous preferred style"
+  default_prompt: "Use $go to implement this change with modern Go, explicit code, and focused tests."
