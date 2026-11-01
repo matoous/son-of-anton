@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "notion",
+  "version": "0.1.0",
+  "description": "Search, read, and update Notion workspace content through its hosted MCP server.",
+  "author": {
+    "name": "Matouš Dzivjak",
+    "url": "https://github.com/matoous"
+  },
+  "homepage": "https://developers.notion.com/guides/mcp/get-started-with-mcp",
+  "repository": "https://github.com/matoous/son-of-anton",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Notion",
+        "shortDescription": "Search, read, and update Notion workspace content through its hosted MCP server.",
+        "category": "Developer Tools"
+      }
+    }
+  }
+}

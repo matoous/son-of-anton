@@ -1,0 +1,4 @@
+interface:
+  display_name: "IETF Datatracker"
+  short_description: "Find RFCs and drafts, verify status, and cite requirements"
+  default_prompt: "Use $ietf to find the relevant RFCs or Internet-Drafts, verify their status and revision, and explain the requirements with section links."

@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "skills": {
+    "developing-in-lightdash": {
+      "source": "lightdash/lightdash",
+      "ref": "main",
+      "sourceType": "github",
+      "skillPath": "skills/developing-in-lightdash/SKILL.md",
+      "computedHash": "9bc99729684afc83341dc8eadf0396017a5373cedb5555660ffcbb4a44a420f4"
+    },
+    "lightdash-release-review": {
+      "source": "lightdash/lightdash",
+      "ref": "main",
+      "sourceType": "github",
+      "skillPath": "skills/lightdash-release-review/SKILL.md",
+      "computedHash": "74d36375b2c17989a084755b118001bdd59ad4f698f2247371053a3cb33bb35c"
+    },
+    "upgrade-preflight": {
+      "source": "lightdash/lightdash",
+      "ref": "main",
+      "sourceType": "github",
+      "skillPath": "skills/upgrade-preflight/SKILL.md",
+      "computedHash": "2b7ca05af785c82f9b7517d891fff2fbc97c2a263cce54a19e9578e0154b59b6"
+    }
+  }
+}

@@ -9,10 +9,10 @@ npm ci --ignore-scripts
 npm run check
 ```
 
-The check validates portable plugin manifests and MCP configuration against the
-pinned official schemas, then checks package paths and skill metadata. GitHub
-Actions runs the same command. Installed plugins do not need these development
-dependencies.
+The check validates plugin manifests and MCP configuration against the pinned
+official schemas. It also checks catalog references, package paths, discoverable
+skill files, and MCP URLs. GitHub Actions runs the same command. Installed
+plugins do not need these development dependencies.
 
 ## Install a local checkout in Codex
 
@@ -41,8 +41,9 @@ Create `son-of-anton/skills/<name>/SKILL.md` with `name` and `description` in YA
 frontmatter. Keep references and helpers alongside it. New skills in an existing
 package need no per-skill manifest or private dotfiles entry.
 
-For a new plugin, create its directory, root `plugin.json`, and `skills/`, then
-add one entry to `.agents/plugins/marketplace.json`. Target Agent Plugins 1.0.0;
+For a new plugin, create its directory and root `plugin.json`, then add one entry
+to `.agents/plugins/marketplace.json`. A package can contain `skills/`, `mcp.json`,
+or both; MCP-only packages need no placeholder skill. Target Agent Plugins 1.0.0;
 put Codex presentation settings under `extensions.com.openai`. Include upstream
 license notices. Bump the changed plugin's version before a release.
 
@@ -74,3 +75,9 @@ Rex is a generated stub rather than a Git-managed skill. Refresh it using
 `rex skill setup` with the desired Rex version, copy the generated instructions
 into `third_party/rex/skills/rex/`, and review the diff. If you use the plugin,
 remove any standalone copy created by that command to avoid duplicate discovery.
+
+Provider MCP packages contain endpoint configuration and setup documentation only.
+Verify URLs and authentication against the provider's official docs. Keep account
+credentials out of the package, and make region-specific endpoints separate
+choices when they are not interchangeable. The validator requires at least one
+skill or MCP server, so an empty package fails validation.

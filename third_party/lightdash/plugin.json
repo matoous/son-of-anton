@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "lightdash",
+  "version": "0.1.0",
+  "description": "Official Lightdash skills for semantic-layer development, dbt SQL, release reviews, and upgrade checks.",
+  "author": {
+    "name": "Lightdash"
+  },
+  "homepage": "https://docs.lightdash.com/workflow/install-agent-skills",
+  "repository": "https://github.com/lightdash/lightdash",
+  "license": "MIT",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Lightdash",
+        "shortDescription": "Develop Lightdash projects and review releases and upgrades",
+        "category": "Developer Tools"
+      }
+    }
+  }
+}

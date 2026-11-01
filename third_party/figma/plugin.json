@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "figma",
+  "version": "0.1.0",
+  "description": "Use Figma design context and supported design tools through its hosted MCP server.",
+  "author": {
+    "name": "Matouš Dzivjak",
+    "url": "https://github.com/matoous"
+  },
+  "homepage": "https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/",
+  "repository": "https://github.com/matoous/son-of-anton",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Figma",
+        "shortDescription": "Use Figma design context and supported design tools through its hosted MCP server.",
+        "category": "Developer Tools"
+      }
+    }
+  }
+}

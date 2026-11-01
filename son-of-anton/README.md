@@ -15,6 +15,7 @@ The personal engineering workflow plugin in this marketplace.
 | [`$son-of-anton:technical-writing`](skills/technical-writing/SKILL.md) | Docs, RFCs, PR descriptions, and commit messages. |
 | [`$son-of-anton:swarm`](skills/swarm/SKILL.md) | Parallel coverage or competing solutions, combined into one report. |
 | [`$son-of-anton:go`](skills/go/SKILL.md) | Modern Go in my preferred style. |
+| [`$son-of-anton:ietf`](skills/ietf/SKILL.md) | Find RFCs and drafts, check status, and cite protocol requirements. |
 | [`$son-of-anton:sumup-sdks`](skills/sumup-sdks/SKILL.md) | Maintain SumUp SDKs, generators, and their PRs. |
 
 Start with `$son-of-anton:anton` followed by the task, or invoke a companion directly.

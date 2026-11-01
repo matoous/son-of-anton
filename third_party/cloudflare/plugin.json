@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "cloudflare",
+  "version": "0.1.0",
+  "description": "Work with Cloudflare resources through its hosted API MCP server.",
+  "author": {
+    "name": "Matouš Dzivjak",
+    "url": "https://github.com/matoous"
+  },
+  "homepage": "https://developers.cloudflare.com/agents/model-context-protocol/cloudflare/servers-for-cloudflare/",
+  "repository": "https://github.com/matoous/son-of-anton",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Cloudflare",
+        "shortDescription": "Work with Cloudflare resources through its hosted API MCP server.",
+        "category": "Developer Tools"
+      }
+    }
+  }
+}

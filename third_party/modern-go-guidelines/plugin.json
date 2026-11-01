@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "modern-go-guidelines",
+  "version": "0.1.0",
+  "description": "JetBrains Modern Go Guidelines skill with version-aware CLI wrappers.",
+  "author": {
+    "name": "JetBrains, GoLand Team"
+  },
+  "homepage": "https://github.com/JetBrains/go-modern-guidelines",
+  "license": "Apache-2.0",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Modern Go Guidelines",
+        "shortDescription": "Apply version-aware Go guidelines from JetBrains",
+        "category": "Developer Tools"
+      }
+    }
+  }
+}
