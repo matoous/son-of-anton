@@ -1,21 +1,21 @@
 {
-  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "honeycomb-eu",
-  "version": "0.1.0",
-  "description": "Query telemetry and investigate production behavior in Honeycomb EU.",
-  "author": {
-    "name": "Matouš Dzivjak",
-    "url": "https://github.com/matoous"
-  },
-  "homepage": "https://docs.honeycomb.io/integrations/mcp/configuration-guide/",
-  "repository": "https://github.com/matoous/son-of-anton",
-  "extensions": {
-    "com.openai": {
-      "interface": {
-        "displayName": "Honeycomb (EU)",
-        "shortDescription": "Query telemetry and investigate production behavior in Honeycomb EU.",
-        "category": "Developer Tools"
-      }
-    }
-  }
+	"$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+	"name": "honeycomb",
+	"version": "0.1.0",
+	"description": "Query telemetry and investigate production behavior in Honeycomb EU.",
+	"author": {
+		"name": "Matouš Dzivjak",
+		"url": "https://github.com/matoous"
+	},
+	"homepage": "https://docs.honeycomb.io/integrations/mcp/configuration-guide/",
+	"repository": "https://github.com/matoous/son-of-anton",
+	"extensions": {
+		"com.openai": {
+			"interface": {
+				"displayName": "Honeycomb (EU)",
+				"shortDescription": "Query telemetry and investigate production behavior in Honeycomb EU.",
+				"category": "Developer Tools"
+			}
+		}
+	}
 }

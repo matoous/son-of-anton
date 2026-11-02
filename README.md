@@ -13,7 +13,7 @@ specific skill for architecture, testing, writing, or understanding code.
 | [incident.io](third_party/incidentio/) | Vendored incident.io skills plus its official remote MCP server. Requires an incident.io account. |
 | [Lightdash](third_party/lightdash/) | Official skills for semantic-layer YAML, dbt SQL, release reviews, and self-hosted upgrade checks. |
 | [Modern Go Guidelines](third_party/modern-go-guidelines/) | JetBrains' version-aware Go skill and CLI wrappers. Requires the Go toolchain. |
-| [Honeycomb US](third_party/honeycomb/) / [EU](third_party/honeycomb-eu/) | MCP-only packages for querying telemetry and investigating production behavior. Pick your region. |
+| [Honeycomb](third_party/honeycomb/) / [EU](third_party/honeycomb/) | MCP-only packages for querying telemetry and investigating production behavior. Pick your region. |
 | [Cloudflare](third_party/cloudflare/) | MCP-only access to Cloudflare resources through its hosted API server. |
 | [Notion](third_party/notion/) | MCP-only access to workspace pages, databases, and search. |
 | [Figma](third_party/figma/) | MCP-only access to design context and supported Figma tools. |
@@ -43,9 +43,6 @@ codex plugin add figma@son-of-anton
 codex plugin add miro@son-of-anton
 codex plugin add atlassian@son-of-anton
 ```
-
-For Honeycomb EU, use `codex plugin add honeycomb-eu@son-of-anton` instead of
-`honeycomb@son-of-anton`. The region must match your Honeycomb account.
 
 Start a new Codex session. For example:
 
