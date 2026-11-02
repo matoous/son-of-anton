@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
   "mcpServers": {
-    "honeycomb_eu": {
+    "honeycomb": {
       "type": "streamable-http",
       "url": "https://mcp.eu1.honeycomb.io/mcp"
     }

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "optimizely",
+  "version": "0.1.0",
+  "description": "Manage feature flags and experiments and query results through Optimizely Experimentation’s hosted MCP server.",
+  "author": {
+    "name": "Matouš Dzivjak",
+    "url": "https://github.com/matoous"
+  },
+  "homepage": "https://docs.optimizely.com/experimentation-strategy/docs/install-optimizely-experimentation-mcp-server",
+  "repository": "https://github.com/matoous/son-of-anton",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Optimizely Experimentation",
+        "shortDescription": "Work with feature flags, experiments, audiences, and results",
+        "category": "Developer Tools"
+      }
+    }
+  }
+}

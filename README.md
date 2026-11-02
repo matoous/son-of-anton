@@ -13,11 +13,12 @@ specific skill for architecture, testing, writing, or understanding code.
 | [incident.io](third_party/incidentio/) | Vendored incident.io skills plus its official remote MCP server. Requires an incident.io account. |
 | [Lightdash](third_party/lightdash/) | Official skills for semantic-layer YAML, dbt SQL, release reviews, and self-hosted upgrade checks. |
 | [Modern Go Guidelines](third_party/modern-go-guidelines/) | JetBrains' version-aware Go skill and CLI wrappers. Requires the Go toolchain. |
-| [Honeycomb](third_party/honeycomb/) / [EU](third_party/honeycomb/) | MCP-only packages for querying telemetry and investigating production behavior. Pick your region. |
+| [Honeycomb](third_party/honeycomb/) | MCP-only access to Honeycomb EU for querying telemetry and investigating production behavior. |
 | [Cloudflare](third_party/cloudflare/) | MCP-only access to Cloudflare resources through its hosted API server. |
 | [Notion](third_party/notion/) | MCP-only access to workspace pages, databases, and search. |
 | [Figma](third_party/figma/) | MCP-only access to design context and supported Figma tools. |
 | [Miro](third_party/miro/) | Official skills for board specs, visual code reviews, and codebase explanations, plus its hosted MCP server. |
+| [Optimizely](third_party/optimizely/) | MCP-only access to Experimentation feature flags, experiments, audiences, and results. |
 | [Atlassian](third_party/atlassian/) | MCP-only access to Jira, Confluence, and connected Atlassian products. |
 
 ## Install in Codex
@@ -41,6 +42,7 @@ codex plugin add cloudflare@son-of-anton
 codex plugin add notion@son-of-anton
 codex plugin add figma@son-of-anton
 codex plugin add miro@son-of-anton
+codex plugin add optimizely@son-of-anton
 codex plugin add atlassian@son-of-anton
 ```
 
@@ -129,12 +131,12 @@ installation, add the corresponding URL in your assistant's MCP settings:
 | --- | --- | --- |
 | `superlogical` | `https://www.superlogical.com/rex/community-mcp` | Rex Beta Discord membership and Discord OAuth. |
 | `incident_io` | `https://mcp.incident.io/mcp` | Enable remote MCP in incident.io Settings, then approve OAuth. |
-| `honeycomb` | `https://mcp.honeycomb.io/mcp` | US account, Honeycomb Intelligence enabled, and OAuth. |
-| `honeycomb_eu` | `https://mcp.eu1.honeycomb.io/mcp` | EU account, Honeycomb Intelligence enabled, and OAuth. |
+| `honeycomb` | `https://mcp.eu1.honeycomb.io/mcp` | EU account, Honeycomb Intelligence enabled, and OAuth. |
 | `cloudflare` | `https://mcp.cloudflare.com/mcp` | Cloudflare account and OAuth. |
 | `notion` | `https://mcp.notion.com/mcp` | Notion workspace access and OAuth. |
 | `figma` | `https://mcp.figma.com/mcp` | Figma sign-in; tools depend on your client and account access. |
 | `miro` | `https://mcp.miro.com/` | Miro sign-in and OAuth; select the team that owns the board. Enterprise policies may restrict access. |
+| `optimizely` | `https://exp.mcp.opal.optimizely.com/mcp` | Opti ID, Agent Platform connected to Web or Feature Experimentation, and OAuth. |
 | `atlassian` | `https://mcp.atlassian.com/v2/mcp` | Atlassian account, product access, and OAuth. |
 
 Rex's MCP searches documentation, release notes, and beta discussions. Terminal

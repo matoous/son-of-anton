@@ -11,18 +11,17 @@ server is operated by the provider.
 After registering the Son of Anton marketplace:
 
 ```sh
-codex plugin add honeycomb-eu@son-of-anton
+codex plugin add honeycomb@son-of-anton
 ```
 
 Start a new session.
 Enable Honeycomb Intelligence for your team, then complete browser OAuth.
 
-If your account is in the US, install `honeycomb` instead.
-Use the region matching your Honeycomb account.
+This package connects to Honeycomb's EU region.
 
 ## Other MCP clients
 
-Add a Streamable HTTP connection named `honeycomb_eu` with this URL:
+Add a Streamable HTTP connection named `honeycomb` with this URL:
 
 ```text
 https://mcp.eu1.honeycomb.io/mcp
