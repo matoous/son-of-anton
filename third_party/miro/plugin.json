@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "miro",
+  "version": "0.1.0",
+  "description": "Official Miro skills and hosted MCP access for board specs, visual code reviews, and codebase explanations.",
+  "author": {
+    "name": "Miro",
+    "url": "https://miro.com"
+  },
+  "homepage": "https://developers.miro.com/docs/miro-mcp",
+  "repository": "https://github.com/miroapp/miro-ai",
+  "license": "MIT",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Miro",
+        "shortDescription": "Use Miro boards for specs, visual reviews, and code explanations",
+        "category": "Developer Tools"
+      }
+    }
+  }
+}

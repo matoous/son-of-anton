@@ -17,6 +17,7 @@ specific skill for architecture, testing, writing, or understanding code.
 | [Cloudflare](third_party/cloudflare/) | MCP-only access to Cloudflare resources through its hosted API server. |
 | [Notion](third_party/notion/) | MCP-only access to workspace pages, databases, and search. |
 | [Figma](third_party/figma/) | MCP-only access to design context and supported Figma tools. |
+| [Miro](third_party/miro/) | Official skills for board specs, visual code reviews, and codebase explanations, plus its hosted MCP server. |
 | [Atlassian](third_party/atlassian/) | MCP-only access to Jira, Confluence, and connected Atlassian products. |
 
 ## Install in Codex
@@ -39,6 +40,7 @@ codex plugin add honeycomb@son-of-anton
 codex plugin add cloudflare@son-of-anton
 codex plugin add notion@son-of-anton
 codex plugin add figma@son-of-anton
+codex plugin add miro@son-of-anton
 codex plugin add atlassian@son-of-anton
 ```
 
@@ -135,6 +137,7 @@ installation, add the corresponding URL in your assistant's MCP settings:
 | `cloudflare` | `https://mcp.cloudflare.com/mcp` | Cloudflare account and OAuth. |
 | `notion` | `https://mcp.notion.com/mcp` | Notion workspace access and OAuth. |
 | `figma` | `https://mcp.figma.com/mcp` | Figma sign-in; tools depend on your client and account access. |
+| `miro` | `https://mcp.miro.com/` | Miro sign-in and OAuth; select the team that owns the board. Enterprise policies may restrict access. |
 | `atlassian` | `https://mcp.atlassian.com/v2/mcp` | Atlassian account, product access, and OAuth. |
 
 Rex's MCP searches documentation, release notes, and beta discussions. Terminal

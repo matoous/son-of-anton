@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "skills": {
+    "miro-code-explain-on-board": {
+      "source": "miroapp/miro-ai",
+      "ref": "main",
+      "sourceType": "github",
+      "skillPath": "skills/miro-code-explain-on-board/SKILL.md",
+      "computedHash": "3f9b33f9b81b79040015f297c0f0a69092089ad084150194fb8664f55afc8492"
+    },
+    "miro-code-review": {
+      "source": "miroapp/miro-ai",
+      "ref": "main",
+      "sourceType": "github",
+      "skillPath": "skills/miro-code-review/SKILL.md",
+      "computedHash": "9808212645183c4055b3038fda45befd9eef245cc2d5d5bd07a6be05b99cda72"
+    },
+    "miro-code-spec": {
+      "source": "miroapp/miro-ai",
+      "ref": "main",
+      "sourceType": "github",
+      "skillPath": "skills/miro-code-spec/SKILL.md",
+      "computedHash": "3bdb3e2c4ce95e10e546920f4dc592b2b809738eeac2b0edb9ba292224ea570c"
+    }
+  }
+}
