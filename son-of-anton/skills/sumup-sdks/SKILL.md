@@ -25,6 +25,22 @@ Read the relevant checkout's `AGENTS.md`, manifests, and CI workflows. Check the
 
 Read [repository commands](references/repositories.md) for the selected SDKs. Recheck commands and toolchain versions against the target branch; sibling repositories and PRs can intentionally use different versions.
 
+## Compare documentation and SDK patterns
+
+When designing SDK behavior or writing SDK documentation and examples, compare the relevant flow with one or two of the official sources below before settling on an approach. Choose sources that match the task and target language; use the linked SDKs as starting points to find that provider's other language clients. Routine fixes do not need a broad comparison.
+
+| Source | Documentation | SDK starting point | Useful comparisons |
+| --- | --- | --- | --- |
+| Stripe | [Developer docs](https://docs.stripe.com/) | [Node.js SDK](https://github.com/stripe/stripe-node) | Merchant/platform authorization, embedded components, token handoff, typed requests, pagination, and retries. |
+| Square | [Developer docs](https://developer.squareup.com/docs) | [Python SDK](https://github.com/square/square-python-sdk) | Merchant access, terminal pairing, payment flows, and SDK examples. |
+| Cloudflare | [Developer docs](https://developers.cloudflare.com/) | [TypeScript SDK](https://github.com/cloudflare/cloudflare-typescript) | Task-focused guides, API token permissions, typed resource clients, pagination, and retries. |
+| OpenAI | [API docs](https://developers.openai.com/api/docs/) | [Python SDK](https://github.com/openai/openai-python) | Quickstarts, equivalent examples across languages, sync/async clients, streaming, and typed errors. |
+| Shopify | [Developer docs](https://shopify.dev/docs) | [Node.js API library](https://github.com/Shopify/shopify-app-js/tree/main/packages/apps/shopify-api) | Merchant app authorization, embedded experiences, session handling, and webhooks. |
+
+Compare the developer experience: prerequisites, client initialization, method signatures, errors, and a complete example with its expected result. For documentation, check how the sources separate backend and client responsibilities and present equivalent examples across languages. Inspect current SDK source when a pattern depends on implementation details.
+
+Adapt useful patterns to SumUp's API contract and each language's conventions. Other providers are inspiration, not evidence of SumUp behavior: verify supported actions, permissions, token lifetimes, and SDK compatibility against SumUp's implementation and published contract. In the work report, briefly link the sources that influenced a consequential design or documentation choice and explain what was adapted.
+
 ## Cross-SDK implementation
 
 - Trace the behavior through each generator and its generated output. Share the desired behavior across languages, while retaining each SDK's established patterns.
