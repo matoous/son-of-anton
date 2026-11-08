@@ -35,7 +35,7 @@
       "source": "incident-io/skills",
       "sourceType": "github",
       "skillPath": "plugins/incident-io/skills/incidents/SKILL.md",
-      "computedHash": "e503a01ee2546d6fed6ea5a5e7ea23a701793cc096990ec3db029401fbe35c26"
+      "computedHash": "49b66e5ec459609344e2769961e5eff16c91adb3e869792de806dd73a8e90290"
     },
     "on-call": {
       "source": "incident-io/skills",
@@ -53,7 +53,7 @@
       "source": "incident-io/skills",
       "sourceType": "github",
       "skillPath": "plugins/incident-io/skills/skill-authoring/SKILL.md",
-      "computedHash": "843681160065f4f9594914c69512c2b280e380b762651c8c85c1bc1dec49a05b"
+      "computedHash": "424ad1094a18b791c2de77890ae197b67dd91c02a9ba9a7f768e65d49256fc63"
     },
     "talking-to-the-user": {
       "source": "incident-io/skills",

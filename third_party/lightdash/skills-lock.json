@@ -6,7 +6,7 @@
       "ref": "main",
       "sourceType": "github",
       "skillPath": "skills/developing-in-lightdash/SKILL.md",
-      "computedHash": "9bc99729684afc83341dc8eadf0396017a5373cedb5555660ffcbb4a44a420f4"
+      "computedHash": "625b5a9345f650583ae80f49d805392f5d0f2f884b527ffdbb94a2478bb64453"
     },
     "lightdash-release-review": {
       "source": "lightdash/lightdash",
