@@ -1,10 +1,10 @@
 {
 	"$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
 	"name": "honeycomb",
-	"version": "0.2.0",
-	"description": "Query telemetry and investigate production behavior in Honeycomb EU.",
+	"version": "0.3.0",
+	"description": "Official Honeycomb observability skills and the Honeycomb EU remote MCP server.",
 	"author": {
-		"name": "Matouš Dzivjak",
+		"name": "Matou\u0161 Dzivjak",
 		"url": "https://github.com/matoous"
 	},
 	"homepage": "https://docs.honeycomb.io/integrations/mcp/configuration-guide/",
@@ -13,9 +13,10 @@
 		"com.openai": {
 			"interface": {
 				"displayName": "Honeycomb (EU)",
-				"shortDescription": "Query telemetry and investigate production behavior in Honeycomb EU.",
+				"shortDescription": "Honeycomb observability skills and EU telemetry access",
 				"category": "Developer Tools"
 			}
 		}
-	}
+	},
+	"license": "MIT"
 }

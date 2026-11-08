@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "skills": {
+    "beeline-migration": {
+      "source": "honeycombio/agent-skill",
+      "ref": "6bb09279fc3fb69abf113228be939dbb929e34f1",
+      "sourceType": "github",
+      "skillPath": "honeycomb/skills/beeline-migration/SKILL.md",
+      "computedHash": "ccc0868cef87a318dd21ad34f2555d3c392a313eeb66aa43f154491cb1f8ed1e"
+    },
+    "create-honeycomb-board": {
+      "source": "honeycombio/agent-skill",
+      "ref": "6bb09279fc3fb69abf113228be939dbb929e34f1",
+      "sourceType": "github",
+      "skillPath": "honeycomb/skills/create-honeycomb-board/SKILL.md",
+      "computedHash": "6d9477edbceb86c8bef8ee23c1c38c0fb5588e933d46e4e0f5a8239bde330cba"
+    },
+    "metrics-queries": {
+      "source": "honeycombio/agent-skill",
+      "ref": "6bb09279fc3fb69abf113228be939dbb929e34f1",
+      "sourceType": "github",
+      "skillPath": "honeycomb/skills/metrics-queries/SKILL.md",
+      "computedHash": "9a7c67cadc3d9636ba0c45c390b3179a31c379ef9fcc50e0a85dd78d7f750eb7"
+    },
+    "observability-fundamentals": {
+      "source": "honeycombio/agent-skill",
+      "ref": "6bb09279fc3fb69abf113228be939dbb929e34f1",
+      "sourceType": "github",
+      "skillPath": "honeycomb/skills/observability-fundamentals/SKILL.md",
+      "computedHash": "d5d13efd902b14b1667d010821dea9c03d902e48bb9498e4a2c5c4f42a206df6"
+    },
+    "otel-genai-instrumentation": {
+      "source": "honeycombio/agent-skill",
+      "ref": "6bb09279fc3fb69abf113228be939dbb929e34f1",
+      "sourceType": "github",
+      "skillPath": "honeycomb/skills/otel-genai-instrumentation/SKILL.md",
+      "computedHash": "2a75d69c29303c45f6f12888f7a4e6f1960b2bd8b408c371acd7bc0eec893340"
+    },
+    "otel-instrumentation": {
+      "source": "honeycombio/agent-skill",
+      "ref": "6bb09279fc3fb69abf113228be939dbb929e34f1",
+      "sourceType": "github",
+      "skillPath": "honeycomb/skills/otel-instrumentation/SKILL.md",
+      "computedHash": "c6c151797527969dd103761cb657bac70457518e6f59f3e6c18176e7e96b3e45"
+    },
+    "otel-migration": {
+      "source": "honeycombio/agent-skill",
+      "ref": "6bb09279fc3fb69abf113228be939dbb929e34f1",
+      "sourceType": "github",
+      "skillPath": "honeycomb/skills/otel-migration/SKILL.md",
+      "computedHash": "dac856adb5e318f63efcf6aed11ecae208564e412ad3147cf41100ddcba83455"
+    },
+    "production-investigation": {
+      "source": "honeycombio/agent-skill",
+      "ref": "6bb09279fc3fb69abf113228be939dbb929e34f1",
+      "sourceType": "github",
+      "skillPath": "honeycomb/skills/production-investigation/SKILL.md",
+      "computedHash": "eed4906947c312240563c2d0840c3090645d80f3b13e3bfcc7bacb31e3fa21f7"
+    },
+    "query-patterns": {
+      "source": "honeycombio/agent-skill",
+      "ref": "6bb09279fc3fb69abf113228be939dbb929e34f1",
+      "sourceType": "github",
+      "skillPath": "honeycomb/skills/query-patterns/SKILL.md",
+      "computedHash": "dd04314aab088503acff3722790c3677aa2001fed3c25436d5cefbc7988fd82d"
+    },
+    "slos-and-triggers": {
+      "source": "honeycombio/agent-skill",
+      "ref": "6bb09279fc3fb69abf113228be939dbb929e34f1",
+      "sourceType": "github",
+      "skillPath": "honeycomb/skills/slos-and-triggers/SKILL.md",
+      "computedHash": "94878e7aec1258eb1f622a189694b09217171c2d7baf286778570b5162ccb406"
+    },
+    "verify-recent-trace": {
+      "source": "honeycombio/agent-skill",
+      "ref": "6bb09279fc3fb69abf113228be939dbb929e34f1",
+      "sourceType": "github",
+      "skillPath": "honeycomb/skills/verify-recent-trace/SKILL.md",
+      "computedHash": "324ea36d3425e90a935e4fdba66ea762a67968824b7d7c8a8fecf563c0f17bf3"
+    }
+  }
+}

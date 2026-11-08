@@ -13,7 +13,8 @@ specific skill for architecture, testing, writing, or understanding code.
 | [incident.io](third_party/incidentio/) | Vendored incident.io skills plus its official remote MCP server. Requires an incident.io account. |
 | [Lightdash](third_party/lightdash/) | Official skills for semantic-layer YAML, dbt SQL, release reviews, and self-hosted upgrade checks. |
 | [Modern Go Guidelines](third_party/modern-go-guidelines/) | JetBrains' version-aware Go skill and CLI wrappers. Requires the Go toolchain. |
-| [Honeycomb](third_party/honeycomb/) | MCP-only access to Honeycomb EU for querying telemetry and investigating production behavior. |
+| [Honeycomb](third_party/honeycomb/) | Official observability, investigation, and OpenTelemetry skills plus the Honeycomb EU MCP connection. |
+| [Grafana](third_party/grafana/) | Official skills for dashboards, Grafana Cloud, LGTM observability, k6, plugins, and the App SDK. |
 | [Cloudflare](third_party/cloudflare/) | MCP-only access to Cloudflare resources through its hosted API server. |
 | [Notion](third_party/notion/) | MCP-only access to workspace pages, databases, and search. |
 | [Figma](third_party/figma/) | MCP-only access to design context and supported Figma tools. |
@@ -38,6 +39,7 @@ codex plugin add incident-io@son-of-anton
 codex plugin add lightdash@son-of-anton
 codex plugin add modern-go-guidelines@son-of-anton
 codex plugin add honeycomb@son-of-anton
+codex plugin add grafana@son-of-anton
 codex plugin add cloudflare@son-of-anton
 codex plugin add notion@son-of-anton
 codex plugin add figma@son-of-anton

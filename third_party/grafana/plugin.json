@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "grafana",
+  "version": "0.1.0",
+  "description": "Official Grafana skills for dashboards, Grafana Cloud, the LGTM stack, k6, plugins, and the App SDK.",
+  "author": {
+    "name": "Grafana Labs"
+  },
+  "homepage": "https://github.com/grafana/skills",
+  "repository": "https://github.com/grafana/skills",
+  "license": "Apache-2.0",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Grafana skills",
+        "shortDescription": "Grafana, LGTM observability, k6, and plugin development",
+        "category": "Developer Tools"
+      }
+    }
+  }
+}
