@@ -13,6 +13,7 @@ specific skill for architecture, testing, writing, or understanding code.
 | [incident.io](third_party/incidentio/) | Vendored incident.io skills plus its official remote MCP server. Requires an incident.io account. |
 | [Lightdash](third_party/lightdash/) | Official skills for semantic-layer YAML, dbt SQL, release reviews, and self-hosted upgrade checks. |
 | [Modern Go Guidelines](third_party/modern-go-guidelines/) | JetBrains' version-aware Go skill and CLI wrappers. Requires the Go toolchain. |
+| [Awesome Copilot](third_party/awesome-copilot/) | GitHub's community skills for conventional commits and AI agent security reviews. |
 | [Honeycomb](third_party/honeycomb/) | Official observability, investigation, and OpenTelemetry skills plus the Honeycomb EU MCP connection. |
 | [Grafana](third_party/grafana/) | Official skills for dashboards, Grafana Cloud, LGTM observability, k6, plugins, and the App SDK. |
 | [Cloudflare](third_party/cloudflare/) | MCP-only access to Cloudflare resources through its hosted API server. |
@@ -38,6 +39,7 @@ codex plugin add rex@son-of-anton
 codex plugin add incident-io@son-of-anton
 codex plugin add lightdash@son-of-anton
 codex plugin add modern-go-guidelines@son-of-anton
+codex plugin add awesome-copilot@son-of-anton
 codex plugin add honeycomb@son-of-anton
 codex plugin add grafana@son-of-anton
 codex plugin add cloudflare@son-of-anton
@@ -58,6 +60,8 @@ $son-of-anton:swarm Review this change from several independent perspectives.
 $rex:rex Show my terminal sessions.
 $lightdash:developing-in-lightdash Add a revenue metric to this dbt model.
 $modern-go-guidelines:use-modern-go Apply guidelines for this project's Go version.
+$awesome-copilot:conventional-commit Create a conventional commit for these changes.
+$awesome-copilot:agent-owasp-compliance Review this AI agent's security controls.
 ```
 
 The incident.io package uses names such as `$incident-io:incidents` and

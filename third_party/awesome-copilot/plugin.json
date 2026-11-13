@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "awesome-copilot",
+  "version": "0.1.0",
+  "description": "Conventional commits and AI agent security reviews from GitHub Awesome Copilot.",
+  "author": {
+    "name": "GitHub Awesome Copilot contributors"
+  },
+  "homepage": "https://github.com/github/awesome-copilot",
+  "license": "MIT",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Awesome Copilot",
+        "shortDescription": "Conventional commits and AI agent security reviews",
+        "category": "Developer Tools"
+      }
+    }
+  }
+}

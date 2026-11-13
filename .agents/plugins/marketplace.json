@@ -5,6 +5,18 @@
   },
   "plugins": [
     {
+      "name": "awesome-copilot",
+      "source": {
+        "source": "local",
+        "path": "./third_party/awesome-copilot"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "son-of-anton",
       "source": {
         "source": "local",
